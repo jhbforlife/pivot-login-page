@@ -122,17 +122,17 @@ i {
     }
 
     h1 {
-        font-size:  calc(2vw + 2vh);
+        font-size:  calc(2.25vw + 2.25vh);
         color: #fefefe;
     }
 
     .btn-active {
-        font-size: calc(1.75vw + 1.75vh);
+        font-size: calc(2vw + 2vh);
         color: #fefefe;
     }
 
     .btn-in-active {
-        font-size: calc(1.25vw + 1.25vh);
+        font-size: calc(1.5vw + 1.5vh);
         color: #fefefe;
     }
 
@@ -142,11 +142,11 @@ i {
     }
 
     input {
-        font-size: calc(1.3vw + 1.3vh);
+        font-size: calc(1.5vw + 1.5vh);
     }
 
     a, .btn-btn-primary, ul {
-        font-size: calc(1vw + 1vh);
+        font-size: calc(1.2vw + 1.2vh);
         color: #fefefe;
     }
 
