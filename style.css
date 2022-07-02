@@ -69,31 +69,35 @@ input {
     height: 5vh;
     min-height: 50px;
     width: 100%;
-    font-size: 1rem;
+    font-size: calc(0.8vw + 0.8vh);
 }
 
 a {
     color: #444;
     opacity: 90%;
     display: block;
-    padding-bottom: 2vh;
+    margin-left: 5px;
+    margin-bottom: 2vh;
+    font-size: calc(0.6vw + 0.6vh);
 }
 
 .btn-btn-primary {
     display: block;
-    margin-bottom: 2vh;
+    margin-left: 5px;
+    margin-bottom: 4vh;
     height: 4vh;
     min-height: 40px;
     width: 50%;
     background-color: rgb(40, 202, 116);
     color: #fefefe;
-    font-size: 1rem;
+    font-size: calc(0.6vw + 0.6vh);
     font-weight: bold;
 }
 
 ul {
     list-style: none;
     opacity: 80%;
+    font-size: calc(0.6vw + 0.6vh);
 }
 
 i {
@@ -105,23 +109,45 @@ i {
   width: 70%;
   height: 100%;
   background: rgb(24, 48, 89);
-  color: white;
+  color: #fefefe;
   padding: 0 20px;
 }
 
 @media screen and (max-width: 800px) {
 
+    html,
+    body {
+        background: rgb(24, 48, 89);
+        color: #fefefe;
+    }
+
     h1 {
         font-size:  calc(2vw + 2vh);
+        color: #fefefe;
     }
 
     .btn-active {
         font-size: calc(1.75vw + 1.75vh);
+        color: #fefefe;
+    }
+
+    .btn-in-active {
+        font-size: calc(1.25vw + 1.25vh);
+        color: #fefefe;
     }
 
     .login {
        width: 90vw;
        min-width: 0px;
+    }
+
+    input {
+        font-size: calc(1.3vw + 1.3vh);
+    }
+
+    a, .btn-btn-primary, ul {
+        font-size: calc(1vw + 1vh);
+        color: #fefefe;
     }
 
     .call-to-action {
