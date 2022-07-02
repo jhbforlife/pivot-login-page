@@ -82,5 +82,6 @@ i {
 
     .call-to-action {
         visibility: hidden;
+        width: 0vw;
     }
 }
