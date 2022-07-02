@@ -20,6 +20,13 @@ body {
   display: flex;
 }
 
+h1 {
+    margin: 5vh 0;
+    color: #252525;
+    opacity: 90%;
+    font-size: 2rem;
+}
+
 fieldset,
 button {
   border: 0;
@@ -30,6 +37,23 @@ button {
   min-width: 500px;
   height: 100%;
   padding: 30px;
+  margin: 0 10vw;
+}
+
+.btn-active {
+    color: #252525;
+    opacity: 90%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn-in-active {
+    color: #252525;
+    opacity: 60%;
+    font-size: 1rem;
+    background-color: transparent;
+    margin-left: 1vw;
 }
 
 ul {
