@@ -37,7 +37,7 @@ button {
   min-width: 500px;
   height: 100%;
   padding: 30px;
-  margin: 0 10vw;
+  margin: 0 0 0 10vw;
 }
 
 .btn-active {
@@ -76,6 +76,7 @@ i {
 
 @media screen and (max-width: 800px) {
     .login {
+       width: 100vw;
        min-width: none;
     }
 
