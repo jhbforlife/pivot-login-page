@@ -77,7 +77,7 @@ i {
 @media screen and (max-width: 800px) {
     .login {
        width: 100vw;
-       min-width: none;
+       min-width: 0px;
     }
 
     .call-to-action {
