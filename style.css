@@ -110,6 +110,15 @@ i {
 }
 
 @media screen and (max-width: 800px) {
+
+    h1 {
+        font-size:  calc(2vw + 2vh);
+    }
+
+    .btn-active {
+        font-size: calc(1.75vw + 1.75vh);
+    }
+
     .login {
        width: 90vw;
        min-width: 0px;
