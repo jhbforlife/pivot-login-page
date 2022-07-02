@@ -34,7 +34,6 @@ button {
 
 /* layout of login section provided */
 .login {
-  min-width: 500px;
   height: 100%;
   padding: 30px;
   margin: 0 0 0 10vw;
