@@ -97,6 +97,7 @@ ul {
     list-style: none;
     opacity: 80%;
     font-size: calc(0.6vw + 0.6vh);
+    margin-bottom: 20px;
 }
 
 i {
