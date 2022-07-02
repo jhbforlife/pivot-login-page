@@ -11,8 +11,6 @@ body {
   line-height: 1.618;
   font-family: sans-serif;
   color: #444;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .container {
@@ -133,6 +131,8 @@ p {
     body {
         background: rgb(41, 54, 193);
         color: #fefefe;
+        overflow-x: hidden;
+        overflow-y: hidden;
     }
 
     h1 {
