@@ -8,10 +8,10 @@
 
 html,
 body {
-  font-size: 18px;
   line-height: 1.618;
   font-family: sans-serif;
   color: #444;
+  overflow-x: hidden;
 }
 
 .container {
@@ -108,15 +108,29 @@ i {
 .call-to-action {
   width: 70%;
   height: 100%;
-  background: rgb(24, 48, 89);
+  background: rgb(41, 54, 193);
   color: #fefefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+    font-size: calc(2vw + 2vh);
+    margin: 0 25%;
+}
+
+p {
+    font-size: calc(0.75vw + 0.75vh);
+    margin: 0 25%;
+    margin-top: 4vh;
 }
 
 @media screen and (max-width: 800px) {
 
     html,
     body {
-        background: rgb(24, 48, 89);
+        background: rgb(41, 54, 193);
         color: #fefefe;
     }
 
