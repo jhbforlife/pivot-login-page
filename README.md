@@ -5,3 +5,4 @@ this is my final project for the pre-work section of the pivot program! this was
 improvements for the future:
 - the right side isn't centered the same way as the left side
 - overflow on mobile
+- landscape mode on mobile
