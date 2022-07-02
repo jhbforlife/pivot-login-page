@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 18px;
+  line-height: 1.618;
+  font-family: sans-serif;
+  color: #444;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+fieldset,
+button {
+  border: 0;
+}
+
+/* layout of login section provided */
+.login {
+  min-width: 500px;
+  height: 100%;
+  padding: 30px;
+}
+
+ul {
+    list-style: none;
+    opacity: 80%;
+}
+
+i {
+    margin-right: 10px;
+}
+
+/* layout of call-to-action section provided */
+.call-to-action {
+  width: calc(100% - 500px);
+  height: 100%;
+  background: rgb(24, 48, 89);
+  color: white;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .call-to-action {
+        visibility: hidden;
+    }
+}
