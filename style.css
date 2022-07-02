@@ -133,7 +133,6 @@ p {
         background: rgb(41, 54, 193);
         color: #fefefe;
         overflow-x: hidden;
-        overflow-y: hidden;
     }
 
     h1 {
@@ -152,7 +151,6 @@ p {
     }
 
     .login {
-       height: 90vh;
        width: 90vw;
        min-width: 0px;
     }
